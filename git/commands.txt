@@ -1,0 +1,3 @@
+# copy ssh key in windows from git console
+
+clip < ~/.ssh/id_rsa.pub
