@@ -1,3 +1,15 @@
 # copy ssh key in windows from git console
 
 clip < ~/.ssh/id_rsa.pub
+
+# create new branch from remote branch
+git checkout -b branch_name origin/remote_name
+
+# push new branch to remote
+git push -u origin branch_name
+
+# revert commit
+git revert commit_id
+
+# merge commit to current branch
+git cherry-pick commit_id
