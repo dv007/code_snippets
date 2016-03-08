@@ -21,10 +21,11 @@ while ($row = mysql_fetch_assoc($query_result)) {
 		'no' => $no,
 		'name' => $row['name'],
 		'img' => 'm' . rand(1, $config['num_img']) . '.png',
+		'id' => $row['id'],
 	);
 	$sql = 'UPDATE members SET status = 1 WHERE id = ' . $row['id'] . ' LIMIT 1';
 	mysql_query($sql);
 }
 mysql_close($link);
-echo json_encode($result);
+echo json_encode(array('result' => $result));
 exit();
