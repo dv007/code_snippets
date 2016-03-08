@@ -11,7 +11,7 @@ $options = array(
 $pdo = new PDO($dsn, $config['db']['user'], $config['db']['password'], $options);
 $db = new NotORM($pdo);
 $members = $db->members()
-	->select("*")
+	->select("*, FLOOR(1 + (RAND() * " . $config['num_img'] . ")) AS img")
 	->where("status = ?", 0)
 	->order("RAND()")
 	->limit(1);
@@ -22,7 +22,7 @@ foreach ($members as $id => $mb) {
 	$result[] = array(
 		'no' => $no,
 		'name' => $mb['name'],
-		'img' => 'm' . rand(1, $config['num_img']) . '.png',
+		'img' => 'm' . $mb['img'] . '.png',
 		'id' => $mb['id'],
 		'badge_id' => $mb['badge_id'],
 	);

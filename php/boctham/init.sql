@@ -22,9 +22,9 @@ CREATE TABLE IF NOT EXISTS `members` (
   `status` tinyint(1) NOT NULL DEFAULT '0',
   `badge_id` varchar(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=118 DEFAULT CHARSET=utf8;
 
--- Dumping data for table boctham.members: 0 rows
+-- Dumping data for table boctham.members: ~6 rows (approximately)
 /*!40000 ALTER TABLE `members` DISABLE KEYS */;
 INSERT INTO `members` (`id`, `name`, `status`, `badge_id`) VALUES
 	(1, 'NGUYỄN HỮU BẢO QUỐC', 0, '20085'),
@@ -51,13 +51,11 @@ INSERT INTO `members` (`id`, `name`, `status`, `badge_id`) VALUES
 	(22, 'NGUYỄN THẾ NINH', 0, '112204'),
 	(23, 'NGUYỄN THANH PHONG', 0, '112311'),
 	(24, 'NGUYỄN MINH HOÀNG', 0, '112337'),
-	(25, 'PHẠM THẾ LĨNH', 0, '112352'),
 	(26, 'QUÁCH MINH KHÁNH', 0, '112418'),
 	(27, 'NGUYỄN TẤN TÀI', 0, '112469'),
 	(28, 'HOÀNG THẾ CƯỜNG', 0, '112605'),
 	(29, 'TRẦN THANH NAM', 0, '112629'),
 	(30, 'HUỲNH CÔNG DANH', 0, '122666'),
-	(31, 'PHẠM QUỐC HÙNG', 0, '122667'),
 	(32, 'TRẦN THẾ SĨ', 0, '122688'),
 	(33, 'LÊ HOÀNG VINH', 0, '122692'),
 	(34, 'LƯU CÔNG DƯƠNG', 0, '122730'),
@@ -72,7 +70,6 @@ INSERT INTO `members` (`id`, `name`, `status`, `badge_id`) VALUES
 	(43, 'NGUYỄN ĐỨC TRUNG', 0, '133292'),
 	(44, 'NGUYỄN ĐỨC VƯƠNG', 0, '133305'),
 	(45, 'HUỲNH THANH HẢI', 0, '133325'),
-	(46, 'NGUYỄN QUANG NGHĨA', 0, '133332'),
 	(47, 'TRẦN NGUYỄN ĐÌNH BẢO', 0, '133333'),
 	(48, 'NGUYỄN GIA VŨ', 0, '133336'),
 	(49, 'ĐỖ QUANG ĐẠI', 0, '133338'),
@@ -88,10 +85,8 @@ INSERT INTO `members` (`id`, `name`, `status`, `badge_id`) VALUES
 	(59, 'NGUYỄN MINH TRUNG', 0, '143726'),
 	(60, 'ĐINH LÊ CAO NGUYÊN', 0, '143732'),
 	(61, 'NGUYỄN HỒNG KHÁNH', 0, '143780'),
-	(62, 'NGUYỄN DUY THIÊN', 0, '143785'),
 	(63, 'NGUYỄN ANH HOÀNG MINH', 0, '143792'),
 	(64, 'NGUYỄN THÀNH ĐẶNG CHÍ CÔNG', 0, '143825'),
-	(65, 'LÊ VĂN LÊ', 0, '143828'),
 	(66, 'NGUYỄN VĂN PHƯƠNG', 0, '143882'),
 	(67, 'LÊ QUANG MINH NHỰT', 0, '143900'),
 	(68, 'NGUYỄN THÁI THUẬN', 0, '143912'),
@@ -101,12 +96,10 @@ INSERT INTO `members` (`id`, `name`, `status`, `badge_id`) VALUES
 	(72, 'NGUYỄN TRỌNG LÂN', 0, '144098'),
 	(73, 'NGUYỄN VIỆT QUỐC', 0, '144102'),
 	(74, 'NGUYỄN HOÀNG TÂM', 0, '144109'),
-	(75, 'LÊ NGỌC TÂN', 0, '144110'),
 	(76, 'ĐINH NGUYỄN NGỌC SƠN', 0, '154203'),
 	(77, 'TRẦN MINH VIỄN', 0, '154209'),
 	(78, 'LÊ ĐỖ NGUYÊN VINH', 0, '154213'),
 	(79, 'PHAN THANH HẢI', 0, '154231'),
-	(80, 'PHẠM VĂN NGHỆ', 0, '154233'),
 	(81, 'NGUYỄN HỮU TÀI', 0, '154238'),
 	(82, 'NGUYỄN MINH TÂM', 0, '154244'),
 	(83, 'NGÔ THÀNH LUÂN', 0, '154263'),
@@ -120,9 +113,7 @@ INSERT INTO `members` (`id`, `name`, `status`, `badge_id`) VALUES
 	(91, 'TRƯƠNG ĐĂNG ĐỨC', 0, '154330'),
 	(92, 'NGUYỄN HOÀNG KHA', 0, '154347'),
 	(93, 'BÙI TRỊNH MINH TUẤN', 0, '154365'),
-	(94, 'TRƯƠNG QUANG TRUNG', 0, '154366'),
 	(95, 'NGUYỄN ANH KHOA', 0, '154375'),
-	(96, 'BÙI TUẤN ANH', 0, '154388'),
 	(97, 'LÊ CAO NGUYÊN', 0, '154389'),
 	(98, 'TRẦN VĂN TUẤN SINH', 0, '154390'),
 	(99, 'VẠN XUÂN BÌNH AN', 0, '154391'),
@@ -137,13 +128,11 @@ INSERT INTO `members` (`id`, `name`, `status`, `badge_id`) VALUES
 	(108, 'NGUYỄN QUANG NHẬT', 0, '154436'),
 	(109, 'NGUYỄN TẤN THÀNH', 0, '154495'),
 	(110, 'VÕ CHÍ TUẤN', 0, '154572'),
-	(111, 'NGUYỄN DUY TUYÊN', 0, '154581'),
 	(112, 'TRƯƠNG VĨNH QUANG NHẬT', 0, '154586'),
 	(113, 'HOÀNG KIM BẢO HOÀNG', 0, '154596'),
 	(114, 'BÙI XUÂN THÁI', 0, '164613'),
 	(115, 'PHAN HOÀNG NAM', 0, '164615'),
-	(116, 'NGUYỄN NGÔ SONG LỰC', 0, '164618'),
-	(117, 'LÊ THANH PHƯƠNG', 0, '164670');
+	(116, 'NGUYỄN NGÔ SONG LỰC', 0, '164618');
 /*!40000 ALTER TABLE `members` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
