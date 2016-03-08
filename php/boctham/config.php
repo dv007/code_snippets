@@ -3,7 +3,7 @@ $config['db'] = array(
 	'host' => 'localhost',
 	'dbname' => 'boctham',
 	'user' => 'root',
-	'password' => '111111',
+	'password' => '',
 	'port' => 3306,
 );
 

@@ -57,9 +57,10 @@
 				var no = 0;
 				$('#error').empty();
 				var msg = '';
+				console.log(res.result);
 				$.each(res.result, function(key, data) {
 					no++;
-					msg = '<div class="col-lg-4"><div class="thumbnail"><span class="badge">#' + data.id + '</span><img src="img/' + data.img + '"><div class="caption"><h4><span class="label label-primary">' + data.name + '</span></h4></div></div></div>';					
+					msg = '<div class="col-lg-4"><div class="thumbnail"><span class="badge">#' + data.badge_id + '</span><img src="img/' + data.img + '"><div class="caption"><h4><span class="label label-primary">' + data.name + '</span></h4></div></div></div>';					
 					$('#result').append(msg);
 				});
 				if (no == 0) {
