@@ -1,0 +1,7 @@
+# Failed to mount folders in Linux guest. This is usually because the "vboxsf" file system is not available.
+sudo /etc/init.d/vboxadd setup
+
+or
+
+cd /opt/VBoxGuestAdditions-*/init  
+sudo ./vboxadd setup
