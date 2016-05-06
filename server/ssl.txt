@@ -1,0 +1,15 @@
+# Setup SSL for jbossweb using CA from comodo
+
+1. Create csr file and submit to Comodo
+
+openssl req -nodes -newkey rsa:2048 -keyout yourdomain.key -out yourdomain.csr
+
+# Create java keystore from exist crt
+
+1. Create p12 file
+
+pkcs12 -export -in yourdomain.crt -inkey yourdomain.key -out yourdomain.p12
+
+2. Convert to jks
+
+keytool -importkeystore -srckeystore yourdomain.p12 -srcstoretype PKCS12 -destkeystore yourdomain.jks -deststoretype JKS
