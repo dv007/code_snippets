@@ -7,6 +7,12 @@ $ms = !empty($_GET['ms']) ? $_GET['ms'] : '';
 <head>
 	<meta charset="utf-8"/>
 	<title>Summoners War</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
 <body>
@@ -50,7 +56,24 @@ $ms = !empty($_GET['ms']) ? $_GET['ms'] : '';
 			// Create the chart.
 			var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
 			// Draw the chart, setting the allowHtml option to true for the tooltips.
-			chart.draw(data, {allowHtml:true});
+			chart.draw(data, {
+				allowHtml:true, 
+				allowCollapse:true,
+			});
+			google.visualization.events.addListener(chart, 'select', function() {
+				var row = chart.getSelection()[0].row;
+				alert('You selected ' + data.getValue(row, 0));
+			});
+
+			google.visualization.events.addListener(chart, 'onmouseover', function() {
+				var row = chart.getSelection()[0].row;
+				
+			});
+
+			google.visualization.events.addListener(chart, 'onmouseout', function() {
+				var row = chart.getSelection()[0].row;
+				
+			});
 		}
     </script>
 </body>

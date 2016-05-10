@@ -13,29 +13,29 @@ $boss = [
 				'star' => '',
 				'materials' => [
 					[
-						'name1' => 'Prilea (Harpy (Wind))',
-						'name2' => 'Lizardman',
+						'name1' => 'Prilea',
+						'name2' => 'Harpy',
 						'img' => 'http://vignette1.wikia.nocookie.net/summoners-war-sky-arena/images/9/96/Lizardman_%28Wind%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141028103435',
 						'type' => 'wind',
 						'star' => ''
 					],
 					[
-						'name1' => 'Hina (Amazon (Wind))',
-						'name2' => 'Eintau',
+						'name1' => 'Hina',
+						'name2' => 'Amazon',
 						'img' => 'http://vignette3.wikia.nocookie.net/summoners-war-sky-arena/images/6/6a/Minotauros_%28Wind%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141028103240',
 						'type' => 'wind',
 						'star' => ''
 					],
 					[
-						'name1' => 'Kahli (High Elemental (Fire))',
-						'name2' => 'Living Armor',
+						'name1' => 'Kahli',
+						'name2' => 'High Elemental',
 						'img' => 'http://vignette2.wikia.nocookie.net/summoners-war-sky-arena/images/1/12/Living_Armor_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213074427',
 						'type' => 'fire',
 						'star' => ''
 					],
 					[
-						'name1' => 'Konamiya (Garuda (Water))',
-						'name2' => 'Pixie',
+						'name1' => 'Konamiya',
+						'name2' => 'Garuda',
 						'img' => 'http://vignette2.wikia.nocookie.net/summoners-war-sky-arena/images/7/79/Pixie_%28Water%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213081742',
 						'type' => 'water',
 						'star' => ''
@@ -43,36 +43,36 @@ $boss = [
 				],
 			],
 			[
-				'name1' => 'Jojo (Joker (Fire))',
-				'name2' => 'Succubus',
+				'name1' => 'Jojo',
+				'name2' => 'Joker',
 				'img' => 'http://vignette1.wikia.nocookie.net/summoners-war-sky-arena/images/c/c9/Joker_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/100?cb=20141213075507',
 				'type' => 'fire',
 				'star' => '',
 				'materials' => [
 					[
-						'name1' => 'Garoche (Werewolf (Fire))',
-						'name2' => 'Beast Hunter',
+						'name1' => 'Garoche',
+						'name2' => 'Werewolf',
 						'img' => 'http://vignette1.wikia.nocookie.net/summoners-war-sky-arena/images/8/84/Succubus_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213080545&format=webp',
 						'type' => 'fire',
 						'star' => ''
 					],
 					[
-						'name1' => 'Cassandra (Magical Archer (Fire))',
-						'name2' => 'Salamander',
+						'name1' => 'Cassandra',
+						'name2' => 'Magical Archer',
 						'img' => 'http://vignette1.wikia.nocookie.net/summoners-war-sky-arena/images/8/84/Succubus_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213080545&format=webp',
 						'type' => 'fire',
 						'star' => ''
 					],
 					[
-						'name1' => 'Kuhn (Golem (Water))',
-						'name2' => 'Harpy',
+						'name1' => 'Kuhn',
+						'name2' => 'Golem',
 						'img' => 'http://vignette1.wikia.nocookie.net/summoners-war-sky-arena/images/8/84/Succubus_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213080545&format=webp',
 						'type' => 'water',
 						'star' => ''
 					],
 					[
-						'name1' => 'Chichi (Howl (Wind))',
-						'name2' => 'Harpu',
+						'name1' => 'Chichi',
+						'name2' => 'Howl',
 						'img' => 'http://vignette1.wikia.nocookie.net/summoners-war-sky-arena/images/8/84/Succubus_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213080545&format=webp',
 						'type' => 'wind',
 						'star' => ''
@@ -80,36 +80,36 @@ $boss = [
 				],
 			],
 			[
-				'name1' => 'Susano)',
+				'name1' => 'Susano',
 				'name2' => 'Ninja',
 				'img' => 'http://vignette4.wikia.nocookie.net/summoners-war-sky-arena/images/3/31/Ninja_%28Water%29_Icon.png/revision/latest/scale-to-width-down/100?cb=20141213080112',
 				'type' => 'water',
 				'star' => '',
 				'materials' => [
 					[
-						'name1' => 'Icaru (Inugami (Water))',
+						'name1' => 'Icaru',
+						'name2' => 'Inugami',
+						'img' => 'http://vignette1.wikia.nocookie.net/summoners-war-sky-arena/images/8/84/Succubus_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213080545&format=webp',
+						'type' => 'water',
+						'star' => ''
+					],
+					[
+						'name1' => 'Kahn',
+						'name2' => 'Griffon',
+						'img' => 'http://vignette1.wikia.nocookie.net/summoners-war-sky-arena/images/8/84/Succubus_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213080545&format=webp',
+						'type' => 'water',
+						'star' => ''
+					],
+					[
+						'name1' => 'Dagorr',
 						'name2' => 'Bearman',
-						'img' => 'http://vignette1.wikia.nocookie.net/summoners-war-sky-arena/images/8/84/Succubus_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213080545&format=webp',
-						'type' => 'fire',
-						'star' => ''
-					],
-					[
-						'name1' => 'Kahn (Griffon (Water))',
-						'name2' => 'Grim Reaper',
-						'img' => 'http://vignette1.wikia.nocookie.net/summoners-war-sky-arena/images/8/84/Succubus_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213080545&format=webp',
-						'type' => 'Water',
-						'star' => ''
-					],
-					[
-						'name1' => 'Dagorr (Bearman (Wind))',
-						'name2' => 'Inferno',
 						'img' => 'http://vignette1.wikia.nocookie.net/summoners-war-sky-arena/images/8/84/Succubus_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213080545&format=webp',
 						'type' => 'wind',
 						'star' => ''
 					],
 					[
-						'name1' => 'Tantra (Yeti (Fire))',
-						'name2' => 'Imp',
+						'name1' => 'Tantra',
+						'name2' => 'Yeti',
 						'img' => 'http://vignette1.wikia.nocookie.net/summoners-war-sky-arena/images/8/84/Succubus_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213080545&format=webp',
 						'type' => 'fire',
 						'star' => ''
@@ -141,31 +141,31 @@ $boss = [
 				'star' => '',
 				'materials' => [
 					[
-						'name1' => 'Fao (Serpent (Fire))',
-						'name2' => 'Lizardman',
+						'name1' => 'Fao',
+						'name2' => 'Serpent',
 						'img' => 'http://vignette1.wikia.nocookie.net/summoners-war-sky-arena/images/9/96/Lizardman_%28Wind%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141028103435',
-						'type' => 'wind',
-						'star' => ''
-					],
-					[
-						'name1' => 'Mei (Martial Cat (Fire))',
-						'name2' => 'Eintau',
-						'img' => 'http://vignette3.wikia.nocookie.net/summoners-war-sky-arena/images/6/6a/Minotauros_%28Wind%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141028103240',
-						'type' => 'wind',
-						'star' => ''
-					],
-					[
-						'name1' => 'Sharron (Magical Archer (Water))',
-						'name2' => 'Living Armor',
-						'img' => 'http://vignette2.wikia.nocookie.net/summoners-war-sky-arena/images/1/12/Living_Armor_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213074427',
 						'type' => 'fire',
 						'star' => ''
 					],
 					[
-						'name1' => 'Lukan (Salamander (Wind))',
-						'name2' => 'Pixie',
-						'img' => 'http://vignette2.wikia.nocookie.net/summoners-war-sky-arena/images/7/79/Pixie_%28Water%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213081742',
+						'name1' => 'Mei',
+						'name2' => 'Martial Cat',
+						'img' => 'http://vignette3.wikia.nocookie.net/summoners-war-sky-arena/images/6/6a/Minotauros_%28Wind%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141028103240',
+						'type' => 'fire',
+						'star' => ''
+					],
+					[
+						'name1' => 'Sharron',
+						'name2' => 'Magical Archer',
+						'img' => 'http://vignette2.wikia.nocookie.net/summoners-war-sky-arena/images/1/12/Living_Armor_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213074427',
 						'type' => 'water',
+						'star' => ''
+					],
+					[
+						'name1' => 'Lukan',
+						'name2' => 'Salamander',
+						'img' => 'http://vignette2.wikia.nocookie.net/summoners-war-sky-arena/images/7/79/Pixie_%28Water%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213081742',
+						'type' => 'wind',
 						'star' => ''
 					],
 				],
@@ -178,31 +178,31 @@ $boss = [
 				'star' => '',
 				'materials' => [
 					[
-						'name1' => 'Gruda (Bearman (Water))',
-						'name2' => 'Beast Hunter',
-						'img' => 'http://vignette1.wikia.nocookie.net/summoners-war-sky-arena/images/8/84/Succubus_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213080545&format=webp',
-						'type' => 'fire',
-						'star' => ''
-					],
-					[
-						'name1' => 'Hemos (Grim Reaper (Water))',
-						'name2' => 'Salamander',
-						'img' => 'http://vignette1.wikia.nocookie.net/summoners-war-sky-arena/images/8/84/Succubus_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213080545&format=webp',
-						'type' => 'fire',
-						'star' => ''
-					],
-					[
-						'name1' => 'Anduril (Inferno (Wind))',
-						'name2' => 'Harpy',
+						'name1' => 'Gruda',
+						'name2' => 'Bearman',
 						'img' => 'http://vignette1.wikia.nocookie.net/summoners-war-sky-arena/images/8/84/Succubus_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213080545&format=webp',
 						'type' => 'water',
 						'star' => ''
 					],
 					[
-						'name1' => 'Cogma (Imp (Fire))',
-						'name2' => 'Harpu',
+						'name1' => 'Hemos',
+						'name2' => 'Grim Reaper',
+						'img' => 'http://vignette1.wikia.nocookie.net/summoners-war-sky-arena/images/8/84/Succubus_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213080545&format=webp',
+						'type' => 'water',
+						'star' => ''
+					],
+					[
+						'name1' => 'Anduril',
+						'name2' => 'Inferno',
 						'img' => 'http://vignette1.wikia.nocookie.net/summoners-war-sky-arena/images/8/84/Succubus_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213080545&format=webp',
 						'type' => 'wind',
+						'star' => ''
+					],
+					[
+						'name1' => 'Cogma',
+						'name2' => 'Imp',
+						'img' => 'http://vignette1.wikia.nocookie.net/summoners-war-sky-arena/images/8/84/Succubus_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213080545&format=webp',
+						'type' => 'fire',
 						'star' => ''
 					],
 				],
@@ -417,10 +417,10 @@ $boss = [
 		'img' => 'http://vignette2.wikia.nocookie.net/summoners-war-sky-arena/images/1/11/Panda_Warrior_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20160428134955',
 		'materials' => [
 			[
-				'name1' => 'Qebehsenuef (Horus (Water)',
-				'name2' => 'Vampire',
+				'name1' => 'Qebehsenuef',
+				'name2' => 'Horus',
 				'img' => 'http://vignette3.wikia.nocookie.net/summoners-war-sky-arena/images/c/ce/Vampire_%28Wind%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213075620',
-				'type' => 'wind',
+				'type' => 'water',
 				'star' => '',
 				'materials' => [
 					[
@@ -454,10 +454,10 @@ $boss = [
 				],
 			],
 			[
-				'name1' => 'Ling Ling (Kung Fu Girl (Wind))',
-				'name2' => 'Succubus',
+				'name1' => 'Ling Ling',
+				'name2' => 'Kung Fu Girl',
 				'img' => 'http://vignette1.wikia.nocookie.net/summoners-war-sky-arena/images/8/84/Succubus_%28Fire%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213080545&format=webp',
-				'type' => 'fire',
+				'type' => 'wind',
 				'star' => '',
 				'materials' => [
 					[
@@ -491,10 +491,10 @@ $boss = [
 				],
 			],
 			[
-				'name1' => 'Akia (Succubus (Fire))',
-				'name2' => 'Undine',
+				'name1' => 'Akia',
+				'name2' => 'Succubus',
 				'img' => 'http://vignette2.wikia.nocookie.net/summoners-war-sky-arena/images/c/c6/Undine_%28Water%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213081040',
-				'type' => 'water',
+				'type' => 'fire',
 				'star' => '',
 				'materials' => [
 					[
@@ -528,10 +528,10 @@ $boss = [
 				],
 			],
 			[
-				'name1' => 'Geoffrey (Viking (Fire))',
-				'name2' => 'Yeti',
+				'name1' => 'Geoffrey',
+				'name2' => 'Viking',
 				'img' => 'http://vignette3.wikia.nocookie.net/summoners-war-sky-arena/images/4/4b/Yeti_%28Dark%29_Icon.png/revision/latest/scale-to-width-down/85?cb=20141213081544',
-				'type' => 'dark',
+				'type' => 'fire',
 				'star' => '',
 				'materials' => [
 					[
