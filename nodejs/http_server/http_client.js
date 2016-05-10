@@ -19,12 +19,12 @@ function httpRequesr() {
 			sendMsg();
 		});
 		res.on('end', function () {
-			console.log('No more data in response.')
+			console.log('Ket thuc viec nhan phan hoi.')
 		})
 	});
 
 	req.on('error', function (e) {
-		console.log('problem with request: ' + e.message);
+		console.log('Loi ket noi: ' + e.message);
 	});
 
 	// write data to request body
