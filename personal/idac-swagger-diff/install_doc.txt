@@ -1,0 +1,11 @@
+cd /usr/local/src
+wget -O ruby-install-0.6.0.tar.gz https://github.com/postmodern/ruby-install/archive/v0.6.0.tar.gz
+tar -xzvf ruby-install-0.6.0.tar.gz
+cd ruby-install-0.6.0/
+sudo make install
+ruby-install --latest ruby
+ln -s /opt/rubies/ruby-2.3.2/bin/ruby /usr/bin/ruby
+ruby --version
+ln -s /opt/rubies/ruby-2.3.2/bin/gem /usr/bin/gem
+gem --version
+ln -s /opt/rubies/ruby-2.3.2/bin/swagger-diff /usr/bin/swagger-diff
