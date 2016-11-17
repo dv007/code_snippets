@@ -13,3 +13,14 @@ pkcs12 -export -in yourdomain.crt -inkey yourdomain.key -out yourdomain.p12
 2. Convert to jks
 
 keytool -importkeystore -srckeystore yourdomain.p12 -srcstoretype PKCS12 -destkeystore yourdomain.jks -deststoretype JKS
+
+# Installing SSL Certificate Chain (Root, Intermediate(s) and the End Entity)
+
+1. Import Root Certificate 
+      -> keytool -import -trustcacerts -alias AddTrustExternalCARoot -file AddTrustExternalCARoot.crt -keystore domain.keystore
+
+2. Import Intermediate(s) 
+      -> keytool -import -trustcacerts -alias intermediate_filename -file intermediate_filename.crt -keystore domain.keystore
+
+3. Import Entity/Domain certificate 
+      -> keytool -import -trustcacerts -alias mykey -file yourDomainName.crt -keystore domain.keystore
