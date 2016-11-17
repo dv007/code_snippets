@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Changelog</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Changelog</h1>
+        </header>
+        <div class="article">
+            <div>
+                <h2>What's New</h2>
+                <hr>
+                <ol>
+                    <li><span class="GET">GET</span>/{app_id}/{version}/car-models/grades <span>null</span></li>
+                    <li><span class="GET">GET</span>/{app_id}/{version}/shops/{clientId} <span>null</span></li>
+                    <li><span class="GET">GET</span>/{app_id}/{version}/system/check-health <span>null</span></li>
+                    <li><span class="GET">GET</span>/{app_id}/{version}/usedcars/pickup <span>null</span></li>
+                </ol>
+            </div>
+            <div>
+                <h2>What's Deprecated</h2>
+                <hr>
+                <ol></ol>
+            </div>
+            <div>
+                <h2>What's Changed</h2>
+                <hr>
+                <ol>
+                    <li>
+                        <span class="GET">GET</span>/{app_id}/{version}/areas/usedcars/numbers <span>null</span>
+                        <ul class="detail">
+                            <li>
+                                <h3>参数</h3>
+                                <ul class="change param">
+                                    <li>Add order<span class="comment">//ソート種別:
+                                        * price_sort:価格ソート
+                                        * syear_sort:年式ソート
+                                        * mileage_sort:走行距離ソート
+                                        * total_price_sort:総額ソート
+                                        * kantei_syatai_sort:Goo鑑定外装ソート
+                                        * kantei_naisou_sort:Goo鑑定内装ソート</span>
+                                    </li>
+                                    <li>Add appr_exterior_value_cd<span class="comment">//Goo鑑定外装: 0～5（星の数）</span></li>
+                                    <li>Add appr_interior_value_cd<span class="comment">//Goo鑑定内装: 0～5（星の数）</span></li>
+                                    <li class="missing"><span>Delete</span><del>sort_flg</del><span class="comment">//ソート種別:
+                                        * price_sort:価格ソート
+                                        * model_year_sort:年式ソート
+                                        * mileage_sort:走行距離ソート
+                                        * total_price_sort:総額ソート
+                                        * goo_appraisal_exterior_sort:Goo鑑定外装ソート
+                                        * goo_appraisal_interior_sort:Goo鑑定内装ソート</span>
+                                    </li>
+                                    <li class="missing"><span>Delete</span><del>goo_appraisal_exterior_cd</del><span class="comment">//Goo鑑定外装: 0～5（星の数）</span></li>
+                                    <li class="missing"><span>Delete</span><del>goo_appraisal_interior_cd</del><span class="comment">//Goo鑑定内装: 0～5（星の数）</span></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="GET">GET</span>/{app_id}/{version}/usedcars <span>null</span>
+                        <ul class="detail">
+                            <li>
+                                <h3>参数</h3>
+                                <ul class="change param">
+                                    <li>Add order<span class="comment">//ソート種別:
+                                        * price_sort:価格ソート
+                                        * syear_sort:年式ソート
+                                        * mileage_sort:走行距離ソート
+                                        * total_price_sort:総額ソート
+                                        * kantei_syatai_sort:Goo鑑定外装ソート
+                                        * kantei_naisou_sort:Goo鑑定内装ソート</span>
+                                    </li>
+                                    <li>Add appr_exterior_value_cd<span class="comment">//Goo鑑定外装: 0～5（星の数）</span></li>
+                                    <li>Add appr_interior_value_cd<span class="comment">//Goo鑑定内装: 0～5（星の数）</span></li>
+                                    <li>Add car_model_cd<span class="comment">//モデル毎に絞り込み: 10101040|1</span></li>
+                                    <li>Add car_model_grade_cd<span class="comment">//モデルのグレードで絞り込み: 10101040|1|39</span></li>
+                                    <li class="missing"><span>Delete</span><del>sort_flg</del><span class="comment">//ソート種別:
+                                        * price_sort:価格ソート
+                                        * model_year_sort:年式ソート
+                                        * mileage_sort:走行距離ソート
+                                        * total_price_sort:総額ソート
+                                        * goo_appraisal_exterior_sort:Goo鑑定外装ソート
+                                        * goo_appraisal_interior_sort:Goo鑑定内装ソート</span>
+                                    </li>
+                                    <li class="missing"><span>Delete</span><del>goo_appraisal_exterior_cd</del><span class="comment">//Goo鑑定外装: 0～5（星の数）</span></li>
+                                    <li class="missing"><span>Delete</span><del>goo_appraisal_interior_cd</del><span class="comment">//Goo鑑定内装: 0～5（星の数）</span></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>

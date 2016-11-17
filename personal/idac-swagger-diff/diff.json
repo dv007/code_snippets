@@ -1,0 +1,86 @@
+{
+  "new_endpoints": [
+    "get /{}/{}/car-models/grades",
+    "get /{}/{}/shops/{}",
+    "get /{}/{}/system/check-health",
+    "get /{}/{}/usedcars/pickup"
+  ],
+  "removed_endpoints": [],
+  "new_request_params": {
+    "get /{}/{}/usedcars": [
+      "new request param: order (in: query, type: string)",
+      "new request param: appr_exterior_value_cd (in: query, type: integer)",
+      "new request param: appr_interior_value_cd (in: query, type: integer)",
+      "new request param: car_model_cd (in: query, type: string)",
+      "new request param: car_model_grade_cd (in: query, type: string)"
+    ],
+    "get /{}/{}/areas/usedcars/numbers": [
+      "new request param: order (in: query, type: string)",
+      "new request param: appr_exterior_value_cd (in: query, type: integer)",
+      "new request param: appr_interior_value_cd (in: query, type: integer)"
+    ]
+  },
+  "removed_request_params": {
+    "get /{}/{}/usedcars": [
+      "missing request param: sort_flg (in: query, type: string)",
+      "missing request param: goo_appraisal_exterior_cd (in: query, type: integer)",
+      "missing request param: goo_appraisal_interior_cd (in: query, type: integer)"
+    ],
+    "get /{}/{}/areas/usedcars/numbers": [
+      "missing request param: sort_flg (in: query, type: string)",
+      "missing request param: goo_appraisal_exterior_cd (in: query, type: integer)",
+      "missing request param: goo_appraisal_interior_cd (in: query, type: integer)"
+    ]
+  },
+  "new_response_attributes": {
+    "get /{}/{}/prefectures/shops/numbers": [
+      "new attribute for 200 response: status (in: body, type: integer)",
+      "new attribute for 200 response: message (in: body, type: string)"
+    ],
+    "get /{}/{}/municipalities/shops/numbers": [
+      "new attribute for 200 response: status (in: body, type: integer)",
+      "new attribute for 200 response: message (in: body, type: string)",
+      "new attribute for 200 response: data (in: body, type: [])"
+    ],
+    "get /{}/{}/body-types": [
+      "new attribute for 200 response: status (in: body, type: integer)",
+      "new attribute for 200 response: message (in: body, type: string)",
+      "new attribute for 200 response: data (in: body, type: [])"
+    ],
+    "get /{}/{}/body-types/car-models": [
+      "new attribute for 200 response: status (in: body, type: integer)",
+      "new attribute for 200 response: message (in: body, type: string)",
+      "new attribute for 200 response: totalResultsAvailable (in: body, type: integer)",
+      "new attribute for 200 response: totalCount (in: body, type: integer)",
+      "new attribute for 200 response: data (in: body, type: [])"
+    ],
+    "get /{}/{}/brands/car-models": [
+      "new attribute for 200 response: status (in: body, type: integer)",
+      "new attribute for 200 response: message (in: body, type: string)",
+      "new attribute for 200 response: data (in: body, type: [])"
+    ]
+  },
+  "removed_response_attributes": {
+    "get /{}/{}/municipalities/shops/numbers": [
+      "missing attribute from 200 response: []/section_name (in: body, type: string)",
+      "missing attribute from 200 response: []/items (in: body, type: [])"
+    ],
+    "get /{}/{}/body-types": [
+      "missing attribute from 200 response: []/body_type_cd (in: body, type: string)",
+      "missing attribute from 200 response: []/body_name (in: body, type: string)",
+      "missing attribute from 200 response: []/body_name_eng (in: body, type: string)",
+      "missing attribute from 200 response: []/count (in: body, type: integer)"
+    ],
+    "get /{}/{}/body-types/car-models": [
+      "missing attribute from 200 response: ResultSet (in: body, type: )"
+    ],
+    "get /{}/{}/brands/car-models": [
+      "missing attribute from 200 response: []/car_cd (in: body, type: string)",
+      "missing attribute from 200 response: []/partition_car_cd (in: body, type: string)",
+      "missing attribute from 200 response: []/car_name (in: body, type: string)",
+      "missing attribute from 200 response: []/image (in: body, type: string)",
+      "missing attribute from 200 response: []/count (in: body, type: integer)",
+      "missing attribute from 200 response: []/group_key (in: body, type: string)"
+    ]
+  }
+}
