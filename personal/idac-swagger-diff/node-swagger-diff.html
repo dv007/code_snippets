@@ -1,0 +1,9 @@
+<script src="node_modules/swagger-diff/dist/swagger-diff.min.js"></script>
+<script>
+	var oldSpec = 'http://dev.cs/personal/idac-swagger-diff/staging_swagger.json';
+	var newSpec = 'http://dev.cs/personal/idac-swagger-diff/develop_swagger.json'; 
+	var config = '';
+	SwaggerDiff(oldSpec, newSpec, config).then(function (diff) {
+		console.log(diff);
+	});
+</script>
